@@ -265,7 +265,7 @@ def custom_equality(some_list, another_list):
 
     else:
         for item in range(len(some_list)):
-            if some_list[i] != another_list[item]:
+            if some_list[item] != another_list[item]:
                 return False
 
         return True
